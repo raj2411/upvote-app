@@ -6,6 +6,7 @@ const Upvote = ({ isSelected, onClick }) => {
     <div
       className={`upvote ${isSelected ? 'selected' : ''}`}
       onClick={onClick}
+      data-testid="upvote-button" 
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

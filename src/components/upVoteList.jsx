@@ -1,5 +1,5 @@
 import React from 'react';
-import Upvote from './upVote';
+import UpvoteButton from './upVote';
 import './upVoteList.css';
 import { useUpvoteContext } from '../hooks/useUpvoteContext';
 
@@ -12,13 +12,18 @@ const UpvoteList = ({ storageKey }) => {
     return (
       <div className="upvote-list">
         {upvotes.map((isSelected, index) => (
-          <Upvote
+          <UpvoteButton
             key={index}
-            isSelected={isSelected}
+            id={`upvote-button-${index}`}  // Use data-testid for each upvote button
+            selected={isSelected}
             onClick={() => toggleUpvote(index)}
           />
         ))}
-        <button className="add-button" onClick={addUpvote}>
+        <button
+          data-testid="upvote-add-button"  // Use data-testid for the add button
+          className="add-button"
+          onClick={addUpvote}
+        >
           +
         </button>
       </div>
