@@ -1,8 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Upvote App
 
-Currently, two official plugins are available:
+The Upvote App is a React-based application that allows users to interact with upvote buttons. The app features reusable components, dynamic state management, and persistent data storage in the browser. It showcases a simple upvote system where users can toggle the state of individual upvotes, manage multiple upvote lists, and add new upvotes to each list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Live Demo
+
+You can view the live demo of the Upvote App at https://upvoteapp-rajpatel.netlify.app.
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Installation
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/raj2411/upvote-app.git
+cd upvote-app
+```
+
+### 2. Install dependencies:
+
+```bash
+npm install
+```
+
+## Development
+### To start the development server:
+```bash
+npm run dev
+```
+
+## Building
+### To build the app for production:
+```bash
+npm run build
+```
+
+## Testing
+### To run tests :
+```bash
+npm test
+```
