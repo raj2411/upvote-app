@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-// Custom hook to create a new context and provide it
 export const useUpvoteContext = (storageKey) => {
   const UpvoteContext = createContext();
 

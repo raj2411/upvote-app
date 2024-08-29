@@ -1,0 +1,290 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Upvote Lists
+    </h1>
+    <div
+      class="upvote-lists-container"
+    >
+      <div
+        class="upvote-list"
+      >
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <button
+          class="add-button"
+          data-testid="add-button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        class="upvote-list"
+      >
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <button
+          class="add-button"
+          data-testid="add-button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        class="upvote-list"
+      >
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="upvote "
+          data-testid="upvote-button"
+        >
+          <svg
+            class="feather feather-arrow-up"
+            fill="none"
+            height="24"
+            stroke="#343A40"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="12"
+              x2="12"
+              y1="19"
+              y2="5"
+            />
+            <polyline
+              points="5 12 12 5 19 12"
+            />
+          </svg>
+        </div>
+        <button
+          class="add-button"
+          data-testid="add-button"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

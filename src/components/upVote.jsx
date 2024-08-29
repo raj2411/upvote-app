@@ -1,12 +1,12 @@
-import React from 'react';
-import './upVote.css';
+import React from "react";
+import "./upVote.css";
 
 const Upvote = ({ isSelected, onClick }) => {
   return (
     <div
-      className={`upvote ${isSelected ? 'selected' : ''}`}
-      onClick={onClick}
       data-testid="upvote-button" 
+      className={`upvote ${isSelected ? "selected" : ""}`}
+      onClick={onClick}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const Upvote = ({ isSelected, onClick }) => {
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke={isSelected ? '#253CF2' : '#343A40'}
+        stroke={isSelected ? "#253CF2" : "#343A40"}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"

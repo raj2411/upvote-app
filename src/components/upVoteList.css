@@ -1,36 +1,36 @@
 .upvote-list {
-    border: 2px solid #343a40;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    min-width: 300px; /* Ensure a consistent width for all lists */
-    min-height: 60px; /* Set a fixed height to align the + button */
-    position: relative; /* Ensure relative positioning for the + button */
-  }
-  
-  .add-button {
-    position: absolute;
-    right: -70px; /* Position the button outside the right edge of the list */
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    background-color: #343a40;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .add-button:hover {
-    background-color: #253cf2;
-  }
+  border: 2px solid #343a40;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 300px; /* Ensure a consistent width for all lists */
+  min-height: 60px; /* Set a fixed height to align the + button */
+  position: relative; /* Ensure relative positioning for the + button */
+}
+
+.add-button {
+  position: absolute;
+  right: -70px; /* Position the button outside the right edge of the list */
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button:hover {
+  background-color: #253cf2;
+}
